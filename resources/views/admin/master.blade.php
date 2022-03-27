@@ -48,11 +48,11 @@
 <!-- END layout-wrapper -->
 
 <!-- Right Sidebar -->
-@include('admin.includes.sidebar')
+{{--@include('admin.includes.sidebar')--}}
 <!-- /Right-bar -->
 
 <!-- Right bar overlay-->
-<div class="rightbar-overlay"></div>
+{{--<div class="rightbar-overlay"></div>--}}
 
 <!-- JAVASCRIPT -->
 @include('admin.includes.assets.script')

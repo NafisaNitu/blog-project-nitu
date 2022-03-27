@@ -21,8 +21,8 @@
                         <span>Blog Category Module</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="">Add Category</a></li>
-                        <li><a href="">Manage Category</a></li>
+                        <li><a href="{{ route('add-category') }}">Add Category</a></li>
+                        <li><a href="{{ route('manage-category') }}">Manage Category</a></li>
                     </ul>
                 </li>
 
@@ -32,8 +32,8 @@
                         <span>Blog Module</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="">Add Blog</a></li>
-                        <li><a href="">Manage Blog</a></li>
+                        <li><a href="{{ route('add-blog') }}">Add Blog</a></li>
+                        <li><a href="{{ route('manage-blog') }}">Manage Blog</a></li>
                     </ul>
                 </li>
 
@@ -44,8 +44,8 @@
                         <span>Service Module</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="">Add Service</a></li>
-                        <li><a href="">Manage Service</a></li>
+                        <li><a href="{{ route('add-service') }}">Add Service</a></li>
+                        <li><a href="{{ route('manage-service') }}">Manage Service</a></li>
                     </ul>
                 </li>
 
